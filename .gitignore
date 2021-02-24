@@ -1,0 +1,4 @@
+ll_env/
+myvenv/
+__pycache__/
+*.sqlite3
