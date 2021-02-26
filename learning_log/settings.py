@@ -23,10 +23,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '+*i+#ner4!qm1=kn-h@rtsu_$o6^0o!ms-+f=so-5j-7rawk$z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = []
 
+# Allow only Heroku to host the project.
+ALLOWED_HOSTS = ['learning-log29.herokuapp.com']
+#DEBUG = False
 
 # Application definition
 
